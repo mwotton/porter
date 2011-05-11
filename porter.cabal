@@ -2,7 +2,7 @@ Name:                porter
 Version:             0.1
 License:             BSD3
 License-file:        LICENSE
-Author:              Mark Wotton, <mwotton@gmail.com>
+Author:              Dmitry Antonyuk <lomeo@mail.ru>
 Maintainer:          Mark Wotton, <mwotton@gmail.com>
 Category:            Development
 Build-type:          Simple
