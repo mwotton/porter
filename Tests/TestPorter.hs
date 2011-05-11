@@ -1,10 +1,8 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 
-module T where
+import Language.Porter
 
-import Porter
-import Test.QuickCheck(property)
+main :: IO ()
+main = putStrLn $ stem "ensorcellment" 
 
-test_failing = foo == 1
-prop_trivial = property (\(x::Integer) -> 1+x > x)
 
