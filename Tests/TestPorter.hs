@@ -1,8 +1,9 @@
 {-# LANGUAGE ScopedTypeVariables #-}
 
 import Language.Porter
+import Control.Applicative
 
 main :: IO ()
-main = putStrLn $ stem "ensorcellment" 
+main = (unlines . map stem . lines) <$> getContents >>= putStr
 
 

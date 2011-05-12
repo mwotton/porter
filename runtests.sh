@@ -1,1 +1,3 @@
-tbc -v Tests
+cd Tests;
+ghc --make TestPorter
+./TestPorter < voc.txt | diff - output.txt
