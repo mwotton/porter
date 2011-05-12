@@ -2,6 +2,8 @@ Name:                porter
 Version:             0.1
 License:             BSD3
 License-file:        LICENSE
+Synopsis:            Implementation of the Porter stemming algorithm
+Description:         Sourced from http://tartarus.org/~martin/PorterStemmer
 Author:              Dmitry Antonyuk <lomeo@mail.ru>
 Maintainer:          Mark Wotton, <mwotton@gmail.com>
 Category:            Development
