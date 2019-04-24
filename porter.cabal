@@ -1,5 +1,5 @@
 Name:                porter
-Version:             0.1
+Version:             0.1.0.1
 License:             BSD3
 License-file:        LICENSE
 Synopsis:            Implementation of the Porter stemming algorithm
@@ -8,11 +8,12 @@ Author:              Dmitry Antonyuk <lomeo@mail.ru>
 Maintainer:          Mark Wotton, <mwotton@gmail.com>
 Category:            Development
 Build-type:          Simple
-Cabal-version:       >=1.2
+Cabal-version:       >=1.10
 
 
 Library
-  Build-Depends: haskell2010
-  Hs-source-dirs:      src
-  Exposed-Modules: Language.Porter
+  Build-Depends:     base
+  Hs-source-dirs:    src
+  Exposed-Modules:   Language.Porter
+  Default-Language:  Haskell2010
 
